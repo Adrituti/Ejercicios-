@@ -180,7 +180,7 @@ public class Main {
 			System.out.println("El numero es positivo");
 		}*/
 		
-		// EJERCICIO 4
+		/*// EJERCICIO 4
 		
 		System.out.print("Introduce el primer numero: ");
 		int num1 = Entrada.introducirEntero();
@@ -195,8 +195,99 @@ public class Main {
 			System.out.println("El numero es par");
 		} else {
 			System.out.println("El numero es impar");
-		}
+		}*/
 		
+		/* EJERCICIO 7: Permite que el usuario introduzca un número por teclado 
+		y muestra por pantalla la tabla de multiplicar del número introducido bien formateado*/
+		
+		/*System.out.print("Introduce un numero para multiplicar: ");
+		int num1 = Entrada.introducirEntero();
+		int num2=0;
+		do {	
+			num2++;
+			System.out.println(num1 + " * " + num2 + " = " + (num1 * num2));
+		} while (num2 < 10);*/
+		
+		//EJERCICIO BASICO NUM 5
+		
+		/*System.out.print("Introduzca la nota del alumno1: ");
+		int num1 = Entrada.introducirEntero();
+		if (num1<5) {
+			System.out.println("INSUF");
+		} if (num1==5) {
+			System.out.println("SUF");
+		} if (num1>5 && num1<7) {
+			System.out.println("BIEN");
+		} if  (num1>=7 && num1<9) {
+			System.out.println("NOT");
+		} if (num1>=9) {
+			System.out.println("SOB");
+		}
+		System.out.print("Introduzca la nota del alumno2: ");
+		int num2 = Entrada.introducirEntero();
+		if (num2<5) {
+			System.out.println("INSUF");
+		} if (num2==5) {
+			System.out.println("SUF");
+		} if (num2>5 && num2<7) {
+			System.out.println("BIEN");
+		} if  (num2>=7 && num2<9) {
+			System.out.println("NOT");
+		} if (num2>=9) {
+			System.out.println("SOB");
+		}
+		System.out.print("Introduzca la nota del alumno3: ");
+		int num3= Entrada.introducirEntero();
+		if (num3<5) {
+			System.out.println("INSUF");
+		} if (num3==5) {
+			System.out.println("SUF");
+		} if (num3>5 && num3<7) {
+			System.out.println("BIEN");
+		} if  (num3>=7 && num3<9) {
+			System.out.println("NOT");
+		} if (num3>=9) {
+			System.out.println("SOB");
+		}*/
+		
+		//EJERCICIO BASICO NUM 6 
+		
+		/*System.out.print("Introduce el año 2024: ");
+		int año1 = Entrada.introducirEntero();
+		if (año1 % 400 == 0) {
+			System.out.println("Es un año bisiesto");
+		} else if (año1 % 100 == 0) {
+			System.out.println("Es un año común");
+		} else if (año1 % 4 == 0) { 
+			System.out.println("Es un año bisiesto");
+		} else {
+			System.out.println("Es un año común");
+		}
+		System.out.print("Introduce el año 2019: ");
+		int año2 = Entrada.introducirEntero();
+		if (año2 % 400 == 0) {
+			System.out.println("Es un año bisiesto");
+		} else if (año2 % 100 == 0) {
+			System.out.println("Es un año común");
+		} else if (año2 % 4 == 0) { 
+			System.out.println("Es un año bisiesto");
+		} else {
+			System.out.println("Es un año común");
+		}*/
+		
+		// EJERCICIO BASICO NUM 7 
+		
+		/*System.out.print("Introduzca una palabra: ");
+		String palabra1 = Entrada.introducirCadena();
+		if(palabra1 == "ESPATIFILO"){
+			System.out.println("Si - ¡El Espatifilo! es la mejor planta de todos los tiempos!");
+		}*/
+	
+		
+		
+		
+		
+
 		
 		
 		
